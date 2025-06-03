@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Mystic Cheese",
+    "category": "Cheese",
+    "price": 90.99,
+    "image": "/assets/mystic-cheese.png",
+    "left": 12
+  },
+  {
+    "id": "2",
+    "name": "sapins Milk",
+    "category": "Milk",
+    "price": 90.99,
+    "image": "/assets/sapins-milk.png",
+    "left": 12
+  }
+]
