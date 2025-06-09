@@ -1,0 +1,86 @@
+.filterPanelContainer {
+  width: 90%;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 26px;
+  display: flex; 
+  gap: 12px; 
+  padding: 16px 0;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: none; 
+  white-space: nowrap; 
+}
+.filterItem {
+  width: max-content;
+  height: 100%;
+  text-align: center;
+  line-height: 65px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  display: inline-flex; 
+  align-items: center; 
+  padding: 8px 16px; 
+  border-radius: 500px;
+  background-color: #F8F8F8; 
+  color: #333; 
+  border: 1px solid transparent; 
+  cursor: pointer; 
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; 
+  flex-shrink: 0; 
+  height: 40px;
+  margin-right: 12px;
+}
+
+.filterItemSelected {
+  width: max-content;
+  height: 100%;
+  text-align: center;
+  line-height: 65px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  display: inline-flex; 
+  align-items: center; 
+  padding: 8px 16px; 
+  border-radius: 500px;
+  /* background-color:#de57c377;  */
+  background-color: #F8F8F8; 
+  color: #333; 
+  border: 1px solid transparent; 
+  cursor: pointer; 
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; 
+  flex-shrink: 0; 
+  height: 40px;
+  margin-right: 12px;
+  border-color: #DE57C4; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); 
+}
+.filterImage {
+  width: 26px;
+  height: 26px; 
+  object-fit: contain; 
+  margin-right: 5px;
+}
+.filterIcon {
+  width: 24px; 
+  height: 24px;
+  margin-right: 8px; 
+  object-fit: contain; 
+}
+.filterTitle {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0; 
+  line-height: 1; 
+}
+.loading,
+.error,
+.noFilters {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+

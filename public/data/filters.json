@@ -1,0 +1,84 @@
+
+ [
+    {
+      "id": "bread",
+      "name": "Bread",
+      "icon_url": "/images/bread.png"
+    },
+     {
+      "id": "egetables",
+      "name": "Vegetables & Fruits",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+        "icon_url": "/images/bread.png"
+
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "yogurt",
+      "name": "Yogurt",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "water",
+      "name": "Water",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "tea",
+      "name": "Tea",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "shrimp",
+      "name": "Shrimp",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "croissant",
+      "name": "Croissant",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+       "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces",
+        "icon_url": "/images/bread.png"
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces",
+        "icon_url": "/images/bread.png"
+    }
+  ]
