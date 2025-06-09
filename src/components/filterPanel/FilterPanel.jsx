@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './FilterPanel.module.css'; 
 
 const FilterPanel = () => {
   return (
