@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fresh_bakery",
+    "name": "Fresh Bakery",
+    "icon": "🍰",
+    "description": "Freshly baked goods and bread"
+  },
+  {
+    "id": "organic_produce",
+    "name": "Organic Produce",
+    "icon": "🍎",
+    "description": "Organic fruits and vegetables"
+  },
+  {
+    "id": "gourmet_cheeses",
+    "name": "Gourmet Cheeses",
+    "icon": "🧀",
+    "description": "Exquisite cheeses from around the world"
+  },
+  {
+    "id": "premium_meats",
+    "name": "Premium Meats",
+    "icon": "🥩",
+    "description": "High-quality meats and delicacies"
+  },
+  {
+    "id": "artisanal_drinks",
+    "name": "Artisanal Drinks",
+    "icon": "☕",
+    "description": "Craft beverages and fine teas"
+  },
+  {
+    "id": "international_cuisine",
+    "name": "International Cuisine",
+    "icon": "🍜",
+    "description": "Ingredients for international dishes"
+  },
+  {
+    "id": "healthy_snacks",
+    "name": "Healthy Snacks",
+    "icon": " granola_bar",
+    "description": "Healthy and nutritious snacks"
+  },
+  {
+    "id": "vegan_vegetarian",
+    "name": "Vegan & Vegetarian",
+    "icon": "🌱",
+    "description": "Plant-based products for vegans and vegetarians"
+  },
+  {
+    "id": "local_farm_goods",
+    "name": "Local Farm Goods",
+    "icon": "🏡",
+    "description": "Products from local farms"
+  },
+  {
+    "id": "sweet_treats",
+    "name": "Sweet Treats",
+    "icon": "🍭",
+    "description": "Favorite desserts and sweets"
+  }
+]

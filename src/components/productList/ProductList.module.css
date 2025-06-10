@@ -1,0 +1,8 @@
+.productList {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  height: 444px;
+}

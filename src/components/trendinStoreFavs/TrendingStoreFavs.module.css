@@ -1,0 +1,79 @@
+.trendingStoreFavsContainer {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 32px;
+  height: 600px;
+}
+.trendingStoreFavsHeader {
+  height: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+.viewAllButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  button {
+    height: 44px;
+    width: 162px;
+    border: 1px solid #b6359a;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 32px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 24px;
+  }
+}
+.trendingFavsFilter {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  width: 50%;
+
+}
+ .trendingFavsFilterItemText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  font-size: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 32px;
+  text-align: center;
+  padding: 0 12px;
+  background-color: white; 
+}
+
+ .selectedTrendingFavsFilterItemText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  font-size: 12px;
+  border-radius: 32px;
+  text-align: center;
+  padding: 0 12px;
+  background-color: white; 
+  border: 1px solid #b6359a;
+}
+.trendingFavsProducts {
+  padding: 24px;
+}

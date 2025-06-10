@@ -4,15 +4,135 @@
     "name": "Mystic Cheese",
     "category": "Cheese",
     "price": 90.99,
-    "image": "/assets/mystic-cheese.png",
+    "image": "/images/bread.png",
     "left": 12
   },
   {
     "id": "2",
-    "name": "sapins Milk",
+    "name": "Sapins Milk",
     "category": "Milk",
     "price": 90.99,
-    "image": "/assets/sapins-milk.png",
+    "image": "/images/bread.png",
     "left": 12
+  },
+  {
+    "id": "3",
+    "name": "Golden Butter",
+    "category": "Butter",
+    "price": 45.50,
+    "image": "/images/bread.png",
+    "left": 20
+  },
+  {
+    "id": "4",
+    "name": "Herbal Yogurt",
+    "category": "Yogurt",
+    "price": 30.25,
+    "image": "/images/bread.png",
+    "left": 8
+  },
+  {
+    "id": "5",
+    "name": "Creamy Brie",
+    "category": "Cheese",
+    "price": 110.00,
+    "image": "/assets/creamy-brie.png",
+    "left": 5
+  },
+  {
+    "id": "6",
+    "name": "Farmhouse Milk",
+    "category": "Milk",
+    "price": 80.00,
+    "image": "/assets/farmhouse-milk.png",
+    "left": 18
+  },
+  {
+    "id": "7",
+    "name": "Velvet Cream",
+    "category": "Cream",
+    "price": 65.75,
+    "image": "/assets/velvet-cream.png",
+    "left": 10
+  },
+  {
+    "id": "8",
+    "name": "Organic Mozzarella",
+    "category": "Cheese",
+    "price": 95.40,
+    "image": "/assets/organic-mozzarella.png",
+    "left": 14
+  },
+  {
+    "id": "9",
+    "name": "Greek Yogurt",
+    "category": "Yogurt",
+    "price": 32.10,
+    "image": "/assets/greek-yogurt.png",
+    "left": 9
+  },
+  {
+    "id": "10",
+    "name": "Choco Milk",
+    "category": "Milk",
+    "price": 72.00,
+    "image": "/assets/choco-milk.png",
+    "left": 25
+  },
+  {
+    "id": "11",
+    "name": "Smoked Cheddar",
+    "category": "Cheese",
+    "price": 102.30,
+    "image": "/assets/smoked-cheddar.png",
+    "left": 6
+  },
+  {
+    "id": "12",
+    "name": "Whipped Butter",
+    "category": "Butter",
+    "price": 49.99,
+    "image": "/assets/whipped-butter.png",
+    "left": 11
+  },
+  {
+    "id": "13",
+    "name": "Alpine Milk",
+    "category": "Milk",
+    "price": 85.60,
+    "image": "/assets/alpine-milk.png",
+    "left": 19
+  },
+  {
+    "id": "14",
+    "name": "Strawberry Yogurt",
+    "category": "Yogurt",
+    "price": 33.00,
+    "image": "/assets/strawberry-yogurt.png",
+    "left": 7
+  },
+  {
+    "id": "15",
+    "name": "Blue Cheese",
+    "category": "Cheese",
+    "price": 120.00,
+    "image": "/assets/blue-cheese.png",
+    "left": 4
+  },
+  {
+    "id": "16",
+    "name": "Salted Butter",
+    "category": "Butter",
+    "price": 50.00,
+    "image": "/assets/salted-butter.png",
+    "left": 16
+  },
+  {
+    "id": "17",
+    "name": "Goat Milk",
+    "category": "Milk",
+    "price": 95.00,
+    "image": "/assets/goat-milk.png",
+    "left": 13
   }
 ]
