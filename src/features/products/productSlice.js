@@ -25,6 +25,9 @@ export const productApi = createApi({
     getTrendingFavsFilter: builder.query({
       query: () => ({ url: "trendingFavsFilter.json" }),
     }),
+    getCartProducts: builder.query({
+      query: () => ({ url: "cartProducts.json" }),
+    }),
   }),
 });
 
@@ -32,4 +35,5 @@ export const {
   useGetProductsQuery, 
   useGetFiltersQuery,
   useGetTrendingFavsFilterQuery,
+  useGetCartProductsQuery,
  } = productApi;

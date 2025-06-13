@@ -1,14 +1,13 @@
 import React from "react";
-import style from "./OrderNow.module.css";
+import style from "./OderNow2.module.css";
 import {
   useGetCartProductsQuery,
   useGetProductsQuery,
   useGetTrendingFavsFilterQuery,
 } from "../../features/products/productSlice";
 import ProductCard from "../productCard/ProductCard";
-import CompFilters from "../componentFilters/CompFilters";
 
-const OrderNow = () => {
+const OrderNow2 = () => {
   const { data, isLoading, error } = useGetCartProductsQuery();
   const { data: productsData } = useGetProductsQuery();
   const { data: trendingData } = useGetTrendingFavsFilterQuery();
@@ -45,8 +44,23 @@ const OrderNow = () => {
         <div className={style.orderNowTitleContainer}>
           <p>Get 10% OFF On Your First Order</p>
           <h3 className={style.orderNowTitle}>Order Now Your Grocery!</h3>
+
           <div className={style.orderNowButtonsContainer}>
-            <CompFilters data={trendingData} />
+            <div className={style.orderCountsContainer}>
+              <div className={style.orderCountsContent}>
+                <h4 className={style.orderCounts}>1k+</h4>
+                <p className={style.orderCountsPer}>Items</p>
+              </div>
+              <div className={style.orderCountsContent}>
+                <h4 className={style.orderCounts}>20</h4>
+                <p className={style.orderCountsPer}>Minutes</p>
+              </div>
+              <div className={style.orderCountsContent}>
+                <h4 className={style.orderCounts}>30%</h4>
+                <p className={style.orderCountsPer}>Up to offers</p>
+              </div>
+            </div>
+            <button className={style.orderNowButton}>Order Now</button>
           </div>
         </div>
       </div>
@@ -54,4 +68,4 @@ const OrderNow = () => {
   );
 };
 
-export default OrderNow;
+export default OrderNow2;

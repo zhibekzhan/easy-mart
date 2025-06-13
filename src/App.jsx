@@ -1,16 +1,11 @@
-import React from "react";
-import Home from "./pages/home/Home";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 const App = () => {
   return (
-    <div>
-      <Home />
-      {/* The following components are commented out as per the instructions */}
-      {/* <Header /> */}
-      {/* <BannerCarousel /> */}
-      {/* <FilterPanel /> */}
-      {/* <Footer /> */}
-    </div>
+    <BrowserRouter>
+     <AppRoutes />
+    </BrowserRouter>
   );
 };
 

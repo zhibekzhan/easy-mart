@@ -1,9 +1,9 @@
 .orderNowContainer {
   margin-top: 80px;
   margin-bottom: 80px;
-  /* height: 500px; */
-  height: max-content;
+  height: 500px;
   width: 100%;
+  
 }
 .orderNowContent {
   width: 90%;
@@ -11,6 +11,7 @@
   display: flex;
   margin: 0 auto;
   background-color: #f9f9f9;
+   background-color: #f5fbf5;
   border-radius: 32px;
   padding: 40px 40px 40px 40px;
 }
@@ -39,4 +40,39 @@
 .orderNowButtonsContainer {
   margin-top: 25px;
   margin-left: 0;
+}
+.orderCountsContainer {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.orderCountsContent {
+  width: 30%;
+  height: 70px;
+}
+.orderCounts {
+  font-size: 35px;
+ padding: 0 10px 10px 10px;
+  font-weight: 500;
+}
+.orderCountsPer {
+ padding: 0 10px 10px 10px;
+ font-size: 22px;
+ width: max-content;
+ color: #000;
+}
+.orderNowButton {
+  margin-top: 30px;
+  width: 35%;
+  height: 50px;
+  border-radius: 32px;
+  border: none;
+  background-color: #b6359a;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.orderNowButton:hover {
+  background-color: #b6359a;
 }

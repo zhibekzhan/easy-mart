@@ -1,0 +1,89 @@
+.weeklySoldOutContainer {
+  width: 100%;
+  height: 750px;
+  background-color: #F9F9F9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.trendingStoreFavsContainer {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 32px 32px 32px 32px;
+  background-color: #b6359a;
+  height: 600px;
+}
+.trendingStoreFavsHeader {
+  border-radius: 32px 32px 32px 32px;
+  height: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  
+}
+.trendingStoreFavsHeaderContent {
+  padding:25px;
+  background-color: #fff;
+  border-radius: 32px;
+   position: relative;
+   border-radius: 32px  32px 0  0;
+  z-index: 1;
+  width: 100%;
+  p {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 24px;
+  }
+}
+.trendingFavsTextHeader{
+  height: 100%;
+  width: 25%;
+    background-color: #ffffff;
+    display: flex;
+}
+.viewAllButton2 {
+   height: 100%;
+   width: 100%;
+}
+.viewAllButton {
+  height: 100%;
+  width: 100%;
+  background-color:#b6359a;
+  color: #fff;
+  padding: 20px;
+  border-radius:  0 32px 0  32px;
+  p {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  button {
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #b6359a;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 32px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 24px;
+  }
+}
+.trendingFavsFilter {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  padding: 12px 12px;
+  border-radius: 32px;
+  width: 50%;
+}
+.trendingFavsProducts {
+  border-radius: 0 32px 32px 32px;
+  padding: 40px 20px 20px 20px;
+  background-color: hsl(0, 0%, 100%);
+}
