@@ -60,11 +60,23 @@
 }
 
 input {
+  margin-top: 20px;
+  width: 100%;
   padding: 12px;
   border-radius: 12px;
   border: 1px solid #ccc;
 }
-
+.phoneInput  {
+  margin-top: 20px;
+   padding-left: 10px;
+    border-radius: 12px;
+    background-color: white;
+     border: 1px solid #cccccc74;
+ input {
+  margin: 0;
+  border: none;
+ }
+}
 .continueBtn {
   background-color: #b8339f;
   color: white;
@@ -74,6 +86,8 @@ input {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+  width: 90%;
+  margin-top: 25px;
 }
 
 .orDivider {
@@ -124,6 +138,11 @@ input {
   a {
     font-size: 14px;
     color: #b8339f;
-   
   }
 }
+/* .phoneInput input {
+  padding-left: 48px; 
+  background-color: #b8339f;
+} */
+
+

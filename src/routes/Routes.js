@@ -1,15 +1,8 @@
 
-import Registration from "../pages/Registration";
-import Login from "../pages/Login";
+import Login from "../pages/auth/login/Login";
+import Registration from "../pages/auth/registration/Registration";
 import Home from "../pages/home/Home";
-
-// export const userRoutes = [
-//   {
-//     path: "/registration",
-//     name: "Регистрация",
-//     element: <Registration />,
-//   },
-// ];
+import NotFound from "../pages/notFound/NotFound";
 
 export const publicRoutes = [
   {
@@ -21,12 +14,8 @@ export const publicRoutes = [
     element: <Login />,
   },
   {
-    path: "/home",
-    element: <Home />,
-  },
-  {
-    path: '/not-found',
-    element: <h1>404 Not Found</h1>,
+    path: '*',
+    element: <NotFound />,
   }
 ];
 
@@ -34,5 +23,9 @@ export const privateRoutes = [
   {
     path: "/dashboard",
     element: <div>Dashboard</div>, 
+  },
+    {
+    path: "/home",
+    element: <Home />,
   },
 ];
