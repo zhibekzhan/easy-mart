@@ -1,18 +1,19 @@
 import React from 'react';
-import style from './Cartmenu.module.css'
+import styles from './Cartmenu.module.scss';
 
 const CartModal = () => {
-    // const userData = JSON.parse(localStorage.getItem("user"));
+  // const userData = JSON.parse(localStorage.getItem("user"));
 
   return (
-    <div className={style.cartModal}>
-        <h2>My Cart</h2>
-        <div className={style.cartIcon}>
-          <span>14</span>
-        </div>
-        <p>Your cart is hungry</p>
-        <p>Fill Your Cart with Delicious Food. Let's Shop!</p>
+    <div className={styles.cartModal}>
+      <h2>My Cart</h2>
+      <hr className={styles.divider} />
+      <div className={styles.cartIcon}>
+        <span>14</span>
       </div>
+      <h3>Your cart is hungry</h3>
+      <p>Fill Your Cart with Delicious Food. Let’s Shop!</p>
+    </div>
   );
 };
 

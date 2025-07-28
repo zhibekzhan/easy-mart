@@ -1,0 +1,87 @@
+.cartModal {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  width: 320px;
+  max-width: 90%;
+  animation: fadeIn 0.3s ease;
+
+  h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .divider {
+    margin: 16px 0;
+    border: none;
+    height: 1px;
+    background-color: #eee;
+  }
+
+  .cartIcon {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background: #fce7f4;
+    border-radius: 50%;
+    margin: 20px auto;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      background-image: url('./../../assets/cart/cartModal.png'); 
+      background-size: contain;
+      background-repeat: no-repeat;
+      transform: translate(-50%, -50%);
+    }
+
+    span {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      background: #b6359a;
+      color: #fff;
+      border-radius: 50%;
+      padding: 3px 7px;
+      font-size: 12px;
+    }
+  }
+
+  h3 {
+    margin: 12px 0 8px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
