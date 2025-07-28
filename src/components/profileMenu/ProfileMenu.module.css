@@ -1,0 +1,62 @@
+.dropdownMenu {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  z-index: 100;
+  padding: 16px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.points {
+  font-size: 14px;
+  color: #d63384;
+}
+
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItems li {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.menuItems li:hover {
+  background-color: #f9f9f9;
+}
+
+.highlight {
+  color: #d63384;
+}

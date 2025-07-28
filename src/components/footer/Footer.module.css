@@ -2,6 +2,11 @@
   height: 300px;
   width: 90%;
   margin: 0 auto;
+  display: flex;
+}
+img {
+  width: content-fit;
+  height: fit-content;
 }
 .footerMenuContainer {
   display: flex;
@@ -36,8 +41,8 @@
 }
  .footerCopyRight {
   text-align: center;
-  margin-top: 40px;
-  color: #6b7280; 
+  margin-bottom: 20px; 
+ color: #6b7280; 
 }
 
 @media (max-width: 768px) {

@@ -1,9 +1,23 @@
-import React from "react";
-import style from "./Header.module.css"; // Assuming you have a CSS file for styling
+import React, { useEffect, useState, dropdownRef } from "react";
+import style from "./Header.module.css";
 import { icon } from "../../assets/icon";
+import { useSelector } from "react-redux";
+import CartModal from "../cartmenu/CartMenu";
+import ProfileModal from "../profileMenu/ProfileMenu";
 
 const Header = () => {
-  var productsOnBasket = 14;
+  const [count, setCount] = useState(0);
+  const [islogged, setIslogged] = useState(false);
+  const { token, loading } = useSelector((state) => state.auth);
+  const [open, setOpen] = useState(false);
+  const [openCart, setOpenCart] = useState(false);
+
+  const handleClickCart = () => {
+    setOpenCart(!openCart);
+  };
+  const handleClickProfile = () => {
+    setOpen(!open);
+  };
 
   return (
     <div className={style.header}>
@@ -18,19 +32,31 @@ const Header = () => {
         <img src={icon.header.search} alt="" />
         <input type="text" placeholder="Search by" />
       </div>
-      <div className={style.basket_login}>
-        <div className={style.basket}>
-          <div>
+      <div className={style.basket_login} onClick={handleClickCart}>
+        <div className={style.basket} sx={{}}>
             <img src={icon.header.basket} alt="" />
-            <span>{productsOnBasket}</span>
-          </div>
+            {count > 0 && <span>{count}</span>}
           <span>Cart</span>
         </div>
-        <div className={style.login}>
-          <img src={icon.header.people} alt="" />
-          <span>Login</span>
-        </div>
+        {token ? (
+          <a className={style.login} onClick={handleClickProfile}>
+            <span>
+              {" "}
+              <img src={icon.header.people} alt="icon-people" />
+            </span>
+          </a>
+        ) : (
+          <div className={style.login}>
+            <a href="/login">
+              <img src={icon.header.people} alt="" />
+            </a>
+            <img src={icon.header.people} alt="" />
+            <span>Login</span>
+          </div>
+        )}
       </div>
+      {open && <ProfileModal />}
+      {openCart && <CartModal />}
     </div>
   );
 };
